@@ -1,0 +1,57 @@
+/* 레이아웃 */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+
+  font-family: 'Jua', sans-serif;
+  background-color: #aa351d;
+  height:  10vh;
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  position: sticky;
+  
+}
+main {
+  height: 90vh;
+  background-color:#fffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > section {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/*버튼*/
+button {
+  display: inline-block;
+  width: 100%;
+  margin: 1%;
+  width: 50vw;
+  height: 20vw;
+  max-width: 200px;
+  max-height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ba1a1a;
+  color: black;
+  font-size: 1 rem;
+ 
+}
+
+button:hover, button:active {
+  background-color: red;
+  color: white;
+}
