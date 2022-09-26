@@ -13,3 +13,4 @@ const funPrint = (n) => {
   //console.log("외부 자바 스크립트");
   console.log(`버튼${n}`);
 }
+
