@@ -5,7 +5,6 @@
 }
 
 header {
-
   font-family: 'Jua', sans-serif;
   background-color: #aa351d;
   height:  10vh;
@@ -23,15 +22,16 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  
 }
 
 main > section {
-
-  display: flex;
+  
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
+  margin: 2vh;
 }
 
 /*버튼*/
@@ -48,10 +48,10 @@ button {
   background-color: #ba1a1a;
   color: black;
   font-size: 1 rem;
- 
 }
 
 button:hover, button:active {
   background-color: red;
   color: white;
 }
+
