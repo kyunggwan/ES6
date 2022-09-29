@@ -3,7 +3,7 @@
   <head>  
     <title>JS PWA</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="/01/style/index.css">
     <!--스타일 시트-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!--글꼴-->
@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&family=Single+Day&display=swap" rel="stylesheet">
    
-    <script src="./dom.js"></script>
+    <script src="/01/script/dom.js"></script>
   </head>
   <body>
     <div id="root">
@@ -22,17 +22,20 @@
             <section id ="msg">
             </section>
             <section id = "formSection">
-              <input type="radio" value="1" name="score">1
-              <input type="radio" value="2" name="score">2
-              <input type="radio" value="3" name="score">3
-              <input type="radio" value="4" name="score">4
-              <input type="radio" value="5" name="score">5
-              <input type="radio" value="6" name="score">6
+              <input type = "radio" value="1" name = "score" id = "d1">1
+              <input type = "radio" value="2" name = "score" id = "d2">2
+              <input type = "radio" value="3" name = "score" id = "d3">3
+              <input type = "radio" value="4" name = "score" id = "d4">4
+              <input type = "radio" value="5" name = "score" id = "d5">5
+              <input type = "radio" value="6" name = "score" id = "d6">6
             </section>
             <section id = "bt">
-              <button class="bt1" onclick="show();"> 확인 </button>
+              <button class = "bt1" onclick="show();" id = "dice"> 시작 </button>
             </section>
-          
+            <section id = "bt0">
+              <button class = "bt1" onclick="show1();" id = "con"> 확인 </button>
+            </section>
+
         </main>
     </div>
     </body>

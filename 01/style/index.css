@@ -45,13 +45,16 @@ button {
   max-height: 50px;
   border-radius: 8px;
   border: none;
-  background-color: #ba1a1a;
+  background-color: #75ba1a;
   color: black;
   font-size: 1 rem;
 }
 
 button:hover, button:active {
-  background-color: red;
+  background-color: rgb(224, 57, 182);
   color: white;
 }
 
+#msg {
+  
+}
